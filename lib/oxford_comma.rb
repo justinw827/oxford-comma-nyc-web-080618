@@ -4,7 +4,7 @@ def oxford_comma(array)
     if index == array.length - 1
       sentence += "and #{word}"
     else
-      sentence += "#{word} ,"
+      sentence += "#{word}, "
     end
   end
   return sentence
