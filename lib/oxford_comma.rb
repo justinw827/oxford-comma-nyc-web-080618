@@ -7,4 +7,5 @@ def oxford_comma(array)
       sentence += "#{word} ,"
     end
   end
+  return sentence
 end
